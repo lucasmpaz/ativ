@@ -1,0 +1,64 @@
+package aula28;
+
+public class cachorro {
+
+
+	String cor;
+    String idade;
+    String nome;
+	boolean latindo;
+    
+    void latir () {
+
+	  latindo = true;
+}
+
+ void naolatindo () {
+	   
+	   latindo = false;
+ }
+
+void mostrarestado() {
+	 
+	 if(latindo) {
+		 
+		 System.out.println("cachorro esta latindo");
+		 
+	 } else {
+		 
+		 System.out.println("cachorro nao esta latindo");
+		 
+	 }
+
+}
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+package aula28;
+
+public class testecachorro {
+
+	public static void main(String[] args) {
+	
+   
+	    cachorro cachorro = new cachorro ();
+				
+			    cachorro.cor= "preto";
+				cachorro.nome="irineu";
+				cachorro.idade="20";
+		       cachorro.latir();
+		       cachorro.mostrarestado();
+		       cachorro.naolatindo();
+			
+		    System.out.println(cachorro.cor);
+			System.out.println(cachorro.nome);
+			System.out.println(cachorro.idade);
+
+			
+		
+	}
+
+}

@@ -1,0 +1,46 @@
+package aula28;
+
+public class funcionario {
+
+
+
+		String departamento;
+	    String salario;
+	    String nome;
+	    String horaextras;
+	 
+	
+
+}
+///////////////////////////////////////////////////////////
+
+
+package aula28;
+
+public class testefuncionario {
+
+
+
+		public static void main(String[] args) {
+			
+		
+		
+		  funcionario FUNCIONARIO = new funcionario ();
+		
+					
+		  FUNCIONARIO.departamento= "administraçao";
+		  FUNCIONARIO.nome="claudio";
+		  FUNCIONARIO.salario="2700";
+		  FUNCIONARIO.horaextras ="3";
+					    
+			    
+		        System.out.println(FUNCIONARIO.departamento);
+				System.out.println(FUNCIONARIO.nome);
+				System.out.println(FUNCIONARIO.horaextras);
+				System.out.println(FUNCIONARIO.salario);
+			
+				System.out.println(FUNCIONARIO.salario + FUNCIONARIO.horaextras);
+
+
+	}
+	}

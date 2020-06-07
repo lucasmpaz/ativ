@@ -1,0 +1,37 @@
+package aula28;
+
+public class pessoa {
+
+	String CPF;
+    String idade;
+    String nome;
+    String altura;
+    
+}
+///////////////////////////////////////////////////////////
+
+package aula28;
+
+public class testepessoa {
+
+	public static void main(String[] args) {
+		
+	
+	
+	  pessoa pessoa = new pessoa ();
+	
+				
+			    pessoa.CPF= "40028922";
+				pessoa.nome="roberto";
+				pessoa.idade="40";
+		        pessoa.altura ="1.70";
+		
+		    System.out.println(pessoa.CPF);
+			System.out.println(pessoa.nome);
+			System.out.println(pessoa.idade);
+			System.out.println(pessoa.altura);
+
+
+
+}
+}
